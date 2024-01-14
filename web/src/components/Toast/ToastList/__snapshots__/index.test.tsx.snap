@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ToastList /> > should render toast list 1`] = `
+<div
+  class="sc-beySPh eUcDme"
+/>
+`;

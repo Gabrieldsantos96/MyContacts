@@ -1,0 +1,20 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ContactList/> > should render skeleton if isLoading is true 1`] = `
+<header
+  class="sc-fsYfdN emxBlT"
+>
+  <strong>
+    0
+     contato(s)
+  </strong>
+  <a
+    class="sc-beySPh iVMLCk"
+    href="/new"
+  >
+    <span>
+      Novo contato
+    </span>
+  </a>
+</header>
+`;

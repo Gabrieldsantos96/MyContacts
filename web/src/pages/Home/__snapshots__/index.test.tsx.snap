@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Home /> > should render Home 1`] = `
+<div
+  class="sc-beySPh iTTv"
+>
+  <div
+    class="sc-guDLey hBRvTZ"
+  >
+    <input
+      placeholder="Pesquisar contato..."
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    data-testid="contacts-list"
+  >
+    <button
+      data-testid="toggle"
+    />
+  </div>
+</div>
+`;

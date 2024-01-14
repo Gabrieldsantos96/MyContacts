@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ModalContent /> > should render the content 1`] = `
+<main
+  class="sc-beySPh kLsHyF"
+>
+  Test Content
+</main>
+`;

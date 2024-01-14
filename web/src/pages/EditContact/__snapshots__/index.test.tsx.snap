@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<EditContact /> > should render Edit Contact 1`] = `
+<div
+  data-testid="page-header"
+/>
+`;

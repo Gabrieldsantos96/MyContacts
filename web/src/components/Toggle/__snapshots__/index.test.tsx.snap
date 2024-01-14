@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Toggle/> > should render with label 1`] = `
+<div
+  class="sc-beySPh brKUCO"
+>
+  <label
+    class="sc-dmyCSP gDRVwl"
+    for="check"
+  >
+    checkbox label
+  </label>
+  <input
+    class="sc-guDLey eRsKsA"
+    id="check"
+    type="checkbox"
+  />
+</div>
+`;
