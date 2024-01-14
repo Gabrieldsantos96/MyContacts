@@ -29,6 +29,7 @@ export const handlers = [
   rest.put<any>(`${ENV}/contacts/:id`, (req, res, ctx) => {
     const { id } = req.params
     if (id === '999') {
+      console.log('bla', 400)
       return res(
         ctx.status(400),
         ctx.json({
@@ -37,6 +38,7 @@ export const handlers = [
         })
       )
     }
+    console.log('bla', 200)
     return res(ctx.status(200), ctx.json(contactsMock[0]))
   }),
   rest.post<any>(`${ENV}/contacts`, (req, res, ctx) => {

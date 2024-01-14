@@ -79,8 +79,8 @@ describe('useEditContact', () => {
       useEditContact({ ContactsService: ContactsService })
     )
 
-    act(() => {
-      result.current.handleSubmit({
+    await act(async () => {
+      await result.current.handleSubmit({
         id: mockId,
         name: 'Updated John Doe',
         email: 'john@example.com',

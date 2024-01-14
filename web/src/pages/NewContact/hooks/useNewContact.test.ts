@@ -36,8 +36,8 @@ describe('useNewContact', () => {
 
     const { id, ...rest } = contactsMock[1]
 
-    act(() => {
-      result.current.handleSubmit(rest)
+    await act(async () => {
+      await result.current.handleSubmit(rest)
     })
 
     await waitFor(() => {
